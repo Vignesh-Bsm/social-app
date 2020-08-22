@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(https://cdn.pixabay.com/photo/2015/06/23/06/09/coast-818349_1280.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* background-size: 300px 100px;  */
+}
+.project-summary{
+  background-color: #d5d7ec;
+}
+.project-details .card{
+ background-color: salmon;
+}
+.open{
+  text-align: end;
+}
+.design{
+  top: 33%;
+  margin-left: 10px;
+}
+.singIn{
+  margin-top: 9%;
+  width:100%;
+}
+.grey.darken-3 {
+  background-color: #498bde !important;
+}
+.blue.darken-1 {
+  background-color: #83898e !important;
+}
+.loginImage{
+  background-image: url(".//assets/pic.jpeg");
+    background-repeat: 'no-repeat';
+    background-size: 'cover';
+    background-position: 'center'
+}
+.white{
+  padding:20px;
+  opacity:0.7;
+}
+.blcl{
+  background-color:  #0e4d80;
+}
+.profileCard{
+  background-color: #5d5dab;
+}
+.namebtn{
+  background-color: #498e81;;
+}
+.profAlign{
+  text-align: center;
+}
+.loadernw{
+  position: relative !important;
+    top: 105px !important;
+    left: 100px !important;
+}
+.circle{
+  border-width:7px !important;
+}
+
+.prfcard{
+  border-radius: 19px !important;
+  border:none !important;
+}
+.cardColl{
+  border:none !important;
+}
+.cdcont{
+  color:#403a3a !important;
+}
+.brand-logo{
+  position: absolute !important;
+  left: 79px !important;
+
+}
+@media only screen and (max-width: 600px) and (min-width: 300px)  {
+  
+  .brand-logo{
+    display: none !important;
+  
+  }
+}
